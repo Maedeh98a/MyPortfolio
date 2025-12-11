@@ -5,14 +5,14 @@ import Expriences from './Components/Expriences'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
-
+import Hero from './Components/Hero'
 
 function App() {
   
 
   return (
     <>
-    <section className='flex flex-col bg-blue-900 p-10 w-screen min-h-screen'>
+    {/* <section className='flex flex-col bg-blue-900 p-10 w-screen min-h-screen'>
     <section className="flex bg-pink-300 border border-pink-500 h-[20rem] p-10 mx-10">
       <Navbar/>
 
@@ -34,9 +34,9 @@ function App() {
       <Footer/>
     </section>
     </section>
+      */}
      
-     
-     
+     <Hero />
      
     </>
   )
